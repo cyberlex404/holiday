@@ -1,0 +1,26 @@
+# Invite menu items definition
+entity.invite.collection:
+  title: 'Invite list'
+  route_name: entity.invite.collection
+  description: 'List Invite entities'
+  parent: system.admin_structure
+  weight: 100
+
+invite.admin.structure.settings:
+  title: Invite settings
+  description: 'Configure Invite entities'
+  route_name: invite.settings
+  parent: system.admin_structure
+# Inquiry menu items definition
+entity.inquiry.collection:
+  title: 'Inquiry list'
+  route_name: entity.inquiry.collection
+  description: 'List Inquiry entities'
+  parent: system.admin_structure
+  weight: 100
+
+inquiry.admin.structure.settings:
+  title: Inquiry settings
+  description: 'Configure Inquiry entities'
+  route_name: inquiry.settings
+  parent: system.admin_structure

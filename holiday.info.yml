@@ -1,0 +1,5 @@
+name: holiday
+type: module
+description: holiday service
+core: 8.x
+package: Braslavskie

@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * Contains holiday.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+/**
+ * Denotes that the invite is sended.
+ */
+const HOLI_INV_SENDED = 1;
+
+/*
+ * Приглашение просмотрено
+ */
+const HOLI_INV_READ = 2;
+
+/*
+ * Приглашение отклонено
+ */
+const HOLI_INV_CANCELED = 3;
+
+/*
+ * Приглашение принято
+ */
+const HOLI_INV_ACCEPT = 4;
+
+/*
+ * Есть новое сообщение в переписке
+ */
+const HOLI_INV_MESSAGE = 5;
+
+/**
+ * Implements hook_help().
+ */
+function holiday_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the holiday module.
+    case 'help.page.holiday':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('holiday service') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+

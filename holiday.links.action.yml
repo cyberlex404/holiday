@@ -1,0 +1,10 @@
+entity.invite.add_form:
+  route_name: entity.invite.add_form
+  title: 'Add Invite'
+  appears_on:
+    - entity.invite.collection
+entity.inquiry.add_form:
+  route_name: entity.inquiry.add_form
+  title: 'Add Inquiry'
+  appears_on:
+    - entity.inquiry.collection

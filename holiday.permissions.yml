@@ -1,0 +1,39 @@
+add invite entities:
+  title: 'Create new Invite entities'
+
+administer invite entities:
+  title: 'Administer Invite entities'
+  description: 'Allow to access the administration form to configure Invite entities.'
+  restrict access: true
+
+delete invite entities:
+  title: 'Delete Invite entities'
+
+edit invite entities:
+  title: 'Edit Invite entities'
+
+view published invite entities:
+  title: 'View published Invite entities'
+
+view unpublished invite entities:
+  title: 'View unpublished Invite entities'
+
+add inquiry entities:
+  title: 'Create new Inquiry entities'
+
+administer inquiry entities:
+  title: 'Administer Inquiry entities'
+  description: 'Allow to access the administration form to configure Inquiry entities.'
+  restrict access: true
+
+delete inquiry entities:
+  title: 'Delete Inquiry entities'
+
+edit inquiry entities:
+  title: 'Edit Inquiry entities'
+
+view published inquiry entities:
+  title: 'View published Inquiry entities'
+
+view unpublished inquiry entities:
+  title: 'View unpublished Inquiry entities'

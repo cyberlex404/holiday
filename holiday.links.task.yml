@@ -1,0 +1,42 @@
+# Invite routing definition
+invite.settings_tab:
+  route_name: invite.settings
+  title: 'Settings'
+  base_route: invite.settings
+entity.invite.canonical:
+  route_name: entity.invite.canonical
+  base_route: entity.invite.canonical
+  title: 'View'
+
+entity.invite.edit_form:
+  route_name: entity.invite.edit_form
+  base_route: entity.invite.canonical
+  title: Edit
+
+entity.invite.delete_form:
+  route_name:  entity.invite.delete_form
+  base_route:  entity.invite.canonical
+  title: Delete
+  weight: 10
+
+# Inquiry routing definition
+inquiry.settings_tab:
+  route_name: inquiry.settings
+  title: 'Settings'
+  base_route: inquiry.settings
+entity.inquiry.canonical:
+  route_name: entity.inquiry.canonical
+  base_route: entity.inquiry.canonical
+  title: 'View'
+
+entity.inquiry.edit_form:
+  route_name: entity.inquiry.edit_form
+  base_route: entity.inquiry.canonical
+  title: Edit
+
+entity.inquiry.delete_form:
+  route_name:  entity.inquiry.delete_form
+  base_route:  entity.inquiry.canonical
+  title: Delete
+  weight: 10
+
